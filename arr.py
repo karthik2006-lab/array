@@ -41,6 +41,10 @@ def main():
     print(f"count of scores: {len(scores)}")
     print(f"sum: {total}")
     print(f"average: {avg}")
+    if len(scores)>0:
+        print("\n=== local branch output (max & main) ===")
+        print(f"maximum:{max(scores)}")
+        print(f"minimum:{min(scores)}")
 
 if __name__ == "__main__":
     main()
